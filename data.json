@@ -1,0 +1,42 @@
+[
+  {
+    "img": "./assets/images/product1.jpeg",
+    "price": "120.000",
+    "name": "Dish name"
+  },
+  {
+    "img": "./assets/images/product2.jpeg",
+    "price": "120.000",
+    "name": "Dish name"
+  },
+  {
+    "img": "./assets/images/product3.jpeg",
+    "price": "120.000",
+    "name": "Dish name"
+  },
+  {
+    "img": "./assets/images/product4.jpeg",
+    "price": "120.000",
+    "name": "Dish name"
+  },
+  {
+    "img": "./assets/images/product5.jpeg",
+    "price": "120.000",
+    "name": "Dish name"
+  },
+  {
+    "img": "./assets/images/product6.jpg",
+    "price": "120.000",
+    "name": "Dish name"
+  },
+  {
+    "img": "./assets/images/product8.jpeg",
+    "price": "120.000",
+    "name": "Dish name"
+  },
+  {
+    "img": "./assets/images/product9.jpeg",
+    "price": "120.000",
+    "name": "Dish name"
+  }
+]

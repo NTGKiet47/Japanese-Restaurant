@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese food</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- icon - fontawesome -->
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.4.2-web/css/all.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- load products -->
+    <script src="/js/loadData.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <a href="index.html">
+            <img id="logo" src="assets/images/logo.jpg" alt="">
+        </a>
+        <div id="menu">
+            <div class="item"><a href="#">Home page</a></div>
+            <div class="item"><a href="#">Product</a></div>
+            <div class="item"><a href="#">Blogs</a></div>
+            <div class="item"><a href="#">Contact</a></div>
+        </div>
+        <div id="actions">
+            <div class="item"><a href="#">
+                    <i class="fa-regular fa-user"></i>
+                </a></div>
+            <div class="item"><a href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a></div>
+        </div>
+    </div>
+    <div id="banner">
+        <div class="box-left">
+            <h2>
+                <span>JAPANESE</span>
+                <br>
+                <span>CHEFS</span>
+            </h2>
+            <p>Providing qualified, nutritional and healthy food to customers.<br> Serving the best things</p>
+            <button class="btn">BUY NOW</button>
+        </div>
+        <div class="box-right">
+            <div class="rightImage-wrapper">
+                <img src="assets/images/box-right-1.jpg" alt="" class="right-img">
+            </div>
+            <div class="rightImage-wrapper">
+                <img src="assets/images/box-right-2.jpg" alt="" class="right-img">
+            </div>
+            <div class="rightImage-wrapper">
+                <img src="assets/images/box-right-3.jpg" alt="" class="right-img">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="products-wrapper">
+            <h2>OUR DISHES</h2>
+            <ul id="product-list" class="row-cols-6">
+
+            </ul>
+            <div id="viewAll">
+                <a href="#">VIEW ALL</a>
+            </div>
+            <div id="saleoff">
+                <div class="box-left">
+                    <span>SALE UP TO </span>
+                    <span>30%</span>
+                </div>
+                <div class="box-right">
+                    <img id="saleoffImg" src="assets/images/saleoff.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="comment">
+            <h2>Customers' responses</h2>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item comment-ele active" data-bs-interval="10000">
+                        <div class="d-block w-100 p-3">
+                            <h3 class="userName">Gia Kiet</h3>
+                            <span class="userComment">The food war mouth-watering</span>
+                        </div>
+                    </div>
+                    <div class="carousel-item comment-ele" data-bs-interval="2000">
+                        <div class="d-block w-100 p-3">
+                            <h3 class="userName">Lam Anh</h3>
+                            <span class="userComment">Ọt ọt ọt</span>
+                        </div>
+                    </div>
+                    <div class="carousel-item comment-ele">
+                        <div class="d-block w-100 p-3">
+                            <h3 class="userName">Kieu Kiet</h3>
+                            <span class="userComment">Yum Yum</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="socail_media">
+            <ul class="media_logo">
+                <li class="item">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="#">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="#">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="partner">
+            <h3>Media Partners</h3>
+            <div class="partner_img">
+                <img src="assets/images/partner1.jpg" alt="">
+                <img src="assets/images/partner2.jpg" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <p>BASIC helps visitors to experience the food and the cuisines that are unique to regions as well as the
+                rural
+                communities that produce these products. SAVOR JAPAN is certified by The Ministry of Agriculture,
+                Forestry</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
